@@ -1,0 +1,9 @@
+FOUT: table users has no column named email
+FOUT: table users has no column named email
+FOUT: table users has no column named email
+FOUT: table users has no column named email
+FOUT: table users has no column named email
+FOUT: table users has no column named email
+FOUT: module 'jwt' has no attribute 'ExpiredSignatureError'
+FOUT: module 'jwt' has no attribute 'encode'
+2025-03-02 02:39:52,884 - GET http://127.0.0.1:8000/api/data - 404

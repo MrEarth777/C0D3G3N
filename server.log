@@ -7,3 +7,62 @@ FOUT: table users has no column named email
 FOUT: module 'jwt' has no attribute 'ExpiredSignatureError'
 FOUT: module 'jwt' has no attribute 'encode'
 2025-03-02 02:39:52,884 - GET http://127.0.0.1:8000/api/data - 404
+2025-03-02 11:58:57,853 - POST http://127.0.0.1:8000/login/ - 404
+2025-03-02 12:00:12,069 - GET http://127.0.0.1:8000/ - 200
+2025-03-02 12:00:12,852 - GET http://127.0.0.1:8000/favicon.ico - 404
+2025-03-02 12:00:21,623 - GET http://127.0.0.1:8000/docs - 200
+2025-03-02 12:00:21,961 - GET http://127.0.0.1:8000/openapi.json - 200
+2025-03-02 12:03:45,277 - GET http://127.0.0.1:8000/docs - 200
+2025-03-02 12:03:45,571 - GET http://127.0.0.1:8000/openapi.json - 200
+2025-03-02 12:04:38,798 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:04:41,283 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:04:43,306 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:04:44,439 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:04:44,635 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:04:44,820 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:04:45,076 - POST http://127.0.0.1:8000/password-reset/ - 400
+2025-03-02 12:07:32,811 - GET http://127.0.0.1:8000/docs - 200
+2025-03-02 12:07:33,138 - GET http://127.0.0.1:8000/openapi.json - 200
+2025-03-02 12:10:56,802 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\gijsv\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 12:10:57,062 - POST http://127.0.0.1:8000/register/ - 200
+2025-03-02 12:13:32,375 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\gijsv\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 12:20:16,613 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\gijsv\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 12:23:27,944 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\gijsv\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 12:26:03,027 - POST http://127.0.0.1:8000/login/ - 400
+2025-03-02 12:28:31,366 - POST http://127.0.0.1:8000/login/ - 400
+2025-03-02 12:28:31,941 - POST http://127.0.0.1:8000/login/ - 400
+2025-03-02 12:28:32,246 - POST http://127.0.0.1:8000/login/ - 400
+2025-03-02 12:28:32,372 - POST http://127.0.0.1:8000/login/ - 400
+2025-03-02 12:29:11,591 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\gijsv\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-02 12:29:11,827 - POST http://127.0.0.1:8000/register/ - 200
+2025-03-02 12:29:32,492 - POST http://127.0.0.1:8000/login/ - 200
+2025-03-02 12:29:46,511 - GET http://127.0.0.1:8000/history/ - 403
+2025-03-02 12:31:16,763 - POST http://127.0.0.1:8000/register/ - 400
+2025-03-02 12:31:29,546 - POST http://127.0.0.1:8000/register/ - 422
+2025-03-02 12:32:10,990 - POST http://127.0.0.1:8000/login/ - 422
+2025-03-02 12:32:48,252 - GET http://127.0.0.1:8000/login/ - 405
